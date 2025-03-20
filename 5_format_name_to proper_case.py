@@ -4,7 +4,7 @@ import string
 full_name = input("Input your full name: ")
 
 # Convert to proper case
-proper_name = string.capsword(full_name)
+proper_name = string.capwords(full_name)
 
 # Print the result
 print("Output:", proper_name)
